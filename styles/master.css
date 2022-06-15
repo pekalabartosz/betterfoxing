@@ -23,8 +23,8 @@ body {
   color: #686868;
 }
 #install-tutorial, #downloading {
-  height: 650px;
-  width: auto;
+  height: auto;
+  width: 550px;
   background: white;
   z-index: 20;
   left: 50%;
