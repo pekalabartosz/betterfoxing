@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/master.css">
+    <title>BetterFoxing - Better web browsing experience</title>
+
+    <link rel="icon" type="image/x-icon" href="ftg/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500&display=swap" rel="stylesheet">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <span id="photo-close">&#10005;</span>
+    <div id="install-tutorial">
+      <div id="top">
+        <h1>You seem interested</h1>
+        <span class="close">&#10005;</span>
+      </div>
+      <ol id="steps-wrapper">
+        <li class="steps">Go to <span class="brighter">about:config</span> in Firefox search bar and accept the warning if you'll get one.</li>
+        <li class="steps">Search for <span class="brighter">toolkit.legacyUserProfileCustomizations.stylesheets</span> and enable it by double clicking.</li>
+        <li class="steps">Go to <span class="brighter">about:profiles</span> and search for the profile you're currently using.
+          Click "Show in Finder" (Root directory), open the catalog and create a new folder here named "chrome" if you don't have one.</li>
+        <li class="steps">Download code from BetterFox and paste the userContent.css in chrome catalog.</li>
+      </ol>
+      <p>Important: to add next theme, copy the code from it and paste to the exsisting userContent.css in the chrome catalog.</p>
+    </div>
+
+    <div id="downloading">
+      <div id="top">
+        <h1>The file is downloading</h1>
+        <span class="close">&#10005;</span>
+      </div>
+      <p>Meanwhile think about supporting me on <span><a href="https://www.patreon.com/betterfoxing" style="color: black;">Patreon</a></span>. Get access to exclussive themes and much more.</p>
+    </div>
+
+    <div id="black-bg"></div>
+    <div id="content-wrapper">
+      <div id="nav">
+        <div id="logo">
+          <img draggable="false" src="betterfoxlogo.png" id="logo-png">
+          <h1>BetterFoxing</h1>
+        </div>
+        <div id="nav-right-side">
+          <div class="select">
+            <a class="select-link" href="https://www.patreon.com/betterfoxing"><img draggable="false" class="select-png" src="ftg/patreon.png" alt=""></a>
+          </div>
+          <div class="select">
+            <a class="select-link" href="https://github.com/pekalabartosz"><img draggable="false" class="select-png" src="ftg/github.png" alt=""></a>
+          </div>
+          <div class="select" id="tutorial">
+            <img draggable="false" class="select-png" src="ftg/hti.png" alt="">
+            <a id="only-nav-text" href="#">How To Install</a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div id="disclaimer">
+          <p>BetterFoxing is a bunch of CSS code lines for Mozilla Firefox Browser that can change the way you browse websites.
+            It has nothing to do with the Mozilla, it is an open-source project.<br>If
+            you like this project, consider <a style="text-decoration: underline; color: rgb(255, 66, 77); cursor: pointer" href="https://www.patreon.com/betterfoxing">supporting me on Patreon</a>. You will get all the updated
+            versions of codes and addictional themes of other sites.<br><span id="themeinfo">For my screenshots I use <span id="themelink"><a href="https://github.com/alfarexguy2019/KeyFox">KeyFox Firefox theme by AlfarexGuy2019</a></span></span></p>
+        </div>
+          <h1>This what you're looking for ↓</h1>
+          <div id="theme-list">
+            <ol>
+
+              <li class="list">
+                <div class="list-list">
+                <div class="list-info">
+                  <div class="list-info-top">
+                    Reddit (light mode only)<a href="https://bit.ly/3zEixdz"><img draggable="false" src="ftg/download-button.png" style="height: 15px" class="download"></a>
+                  </div>
+                  <p style="padding: 0; margin: 0; margin-top: .3rem; font-size: .75rem; color: #a1a1a1;">last updated: 15.06.2022</p>
+                </div>
+                <div class="list-image">
+                  <div class="image">
+                    <img draggable="false"src="ftg/reddit/preview1.png" style="width: 300px; height:auto" alt="">
+                  </div>
+                  <div class="image">
+                    <img draggable="false"src="ftg/reddit/preview2.png" style="width: 300px; height:auto" alt="">
+                  </div>
+                  <div class="image">
+                    <img draggable="false"src="ftg/reddit/preview3.png" style="width: 300px; height:auto" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            </ol>
+          </div>
+      </div>
+    </div>
+    <script>
+
+      var tut = 0;
+
+      $("#downloading").hide();
+      $("#photo-close").hide();
+      $("#install-tutorial").hide();
+      $("#black-bg").hide();
+
+      $("#tutorial").click(function() {
+        $("#install-tutorial").show();
+        $("#black-bg").show();
+        $("#install-tutorial").animate({"margin-top": "0"}, 30, "swing");
+        tut = 1;
+      })
+
+      $(".download").click(function() {
+        $("#downloading").show();
+        $("#black-bg").show();
+      })
+
+      $("#black-bg").click(function() {
+        if (tut == 1) {
+          $("#install-tutorial").hide();
+          $("#black-bg").hide();
+          $('#install-tutorial').stop(true).css({"margin-top": "-5rem"});
+          tut = 0;
+        }
+        if (tut == 0) {
+          $("#active").css({"position": "static", "height": "auto", "width": "300px", "left": "0", "top": "0", "transform": "translate(0%, 0%)", "z-index": "1"});
+          $("#black-bg").hide()
+          $("#active").removeAttr('id');
+          $("#photo-close").hide();
+          $("#downloading").hide();
+        }
+      })
+
+      $("#photo-close").click(function () {
+        if (tut == 0) {
+          $("#active").css({"position": "static", "height": "auto", "width": "300px", "left": "0", "top": "0", "transform": "translate(0%, 0%)", "z-index": "1"});
+          $("#black-bg").hide()
+          $("#active").removeAttr('id');
+          $("#photo-close").hide();
+      }
+    })
+
+      $(".close").click(function() {
+        $("#install-tutorial").hide();
+        $("#black-bg").hide();
+        $('#install-tutorial').stop(true).css({"margin-top": "-5rem"});
+        $("#downloading").hide();
+      })
+
+      $(".list-image img").click(function () {
+        $(this).css({"position": "fixed", "height": "auto", "width": "85vw", "left": "50%", "top": "50%", "transform": "translate(-50%, -50%)", "z-index": "99"});
+        $(this).attr('id', 'active');
+        $("#black-bg").show()
+        $("#photo-close").show();
+      })
+    </script>
+  </body>
+</html>

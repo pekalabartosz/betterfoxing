@@ -1,0 +1,218 @@
+/*================== REDDIT ==================*/
+@-moz-document domain(reddit.com) {
+  ._3ozFtOe6WpJEMUtxDOIvtU, ._2wxsLGNmMLx6sEMLJyn2o9::before {
+    background: #fafafa !important;
+  }
+  ._31N0dvxfpsO6Ur5AKx4O5d {
+    flex-direction: row-reverse !important;
+  }
+  ._10wb7d3rGvj56Gcs4IQWL5 {
+    margin-left: -24px !important;
+  }
+  ._1G4yU68P50vRZ4USXfaceV {
+    border: 0 !important;
+  }
+  ._31N0dvxfpsO6Ur5AKx4O5d {
+    background: #ffffff !important;
+  }
+  ._2-aCCpAklEV0DkVWrpodjE::before {
+    background: none !important;
+  }
+  ._2-aCCpAklEV0DkVWrpodjE {
+    display: none !important;
+  }
+  ._2KqgQ5WzoQRJqjjoznu22o{
+    display: none !important;
+  }
+  ._2TC7AdkcuxFIFKRO_VWis8 {
+    margin-left: 0 !important;
+  }
+  .hpxKmfWP2ZiwdKaWpefMn {
+    display: none !important;
+  }
+  ._2E_zUw3OUkCKUFrIQwE894 {
+    display: none !important;
+  }
+  ._2I12Htze2UzJmmfnrgYJOn ._24UNt1hkbrZxLzs5vkvuDh {
+    background-color: transparent !important;
+  }
+  ._2Q7wEg_pr4EKVIc6XvJibh {
+    display: none !important;
+  }
+  ._1F-AgkBVxGxQsEfI3oVkVa {
+    margin-right: 0 !important;
+  }
+  .jEUbSHJJx8vISKpWirlfx._1dJtiWITrnvIbQdXgYgdym {
+    background: none !important;
+    box-shadow: none !important;
+  }
+  ._2iuoyPiKHN3kfOoeIQalDT {
+    border-radius: .2rem !important;
+  }
+  ._10BQ7pjWbeYP63SAPNS8Ts {
+    background-color: #1e1e1e !important;
+  }
+  .icon-caret_up_fill::before {
+    color: black !important;
+  }
+  .yO1xBdgBCFQNZudOlok9d::before {
+    border-radius: .2rem !important;
+  }
+  .yO1xBdgBCFQNZudOlok9d._2iuoyPiKHN3kfOoeIQalDT._4Glnzr5LA7bNBGMWGW4pU._3uJP0daPEH2plzVEYyTdaH {
+    color: black !important;
+  }
+  ._3jiriKeNer8y0-1r6oWIFM {
+    width: 268px !important;
+  }
+  ._3Kd8DQpBIbsr5E1JcrMFTY._1tvThPWQpORoc2taKebHxs {
+    border-right: 0 solid lightgrey !important;
+  }
+  .wBtTDilkW_rtT2k5x3eie, ._2jJNpBqXMbbyOiGCElTYxZ, ._23tSz_ar8phNRBBW1afkYr, .D3IyhBGwXo9jPwz-Ka0Ve, .D3IyhBGwXo9jPwz-Ka0Ve:hover {
+    border: none !important;
+    border-radius: 0 !important;
+  }
+  .D3IyhBGwXo9jPwz-Ka0Ve:hover {
+    outline: 1px solid lightgrey !important;
+  }
+  a.M2Hk_S2yvXpsNPfZMBMur._1s79QnBguPbckxiiPvFXGP {
+    color: black !important;
+  }
+  a.M2Hk_S2yvXpsNPfZMBMur.M2Hk_S2yvXpsNPfZMBMur::before {
+    border-radius: .2rem !important;
+  }
+  ._2jJNpBqXMbbyOiGCElTYxZ {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  ._1RYN-7H8gYctjOQeL8p2Q7 {
+    border: none !important;
+  }
+  ._70940WUuFmpHbhKlj8EjZ {
+    display: none !important;
+  }
+  ._6_44iTtZoeY6_XChKt5b0 {
+    display: none !important;
+  }
+  .rpBJOHq2PR60pnwJlUyP0 {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  ._267lcOmg8VvXcoj9O0Q1TB:not(:last-child) {
+    border-bottom: none !important;
+  }
+  ._2ARwkAW45Urhf_fMfAMi5_:not(:last-child){
+    border-bottom: none !important;
+  }
+  ._2vkeRJojnV7cb9pMlPHy7d {
+    border-bottom: none !important;
+    background: #ffffff !important;
+  }
+  ._13svhQIUZqD9PVzFcLwOKT {
+    color: #C6C6C6 !important;
+  }
+  ._2tU8R9NTqhvBrhoNAXWWcP {
+    border: 1px solid #686868 !important;
+    color: #686868 !important;
+  }
+  ._1OVBBWLtHoSPfGCRaPzpTf._2OVNlZuUd8L9v0yVECZ2iA {
+    background: #f6f7f8 !important;
+  }
+  .zgT5MfUrDMC54cpiCpZFu:hover {
+    border: 1px solid black !important;
+  }
+  .zgT5MfUrDMC54cpiCpZFu {
+    transition: .09s ease-out !important;
+    cursor: pointer !important;
+  }
+  ._2vkeRJojnV7cb9pMlPHy7d {
+    padding: 0px 42px !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .pthKOcceozMuXLYrLlbL1 {
+    margin-right: 0 !important;
+  }
+  .icon {
+    color: black !important;
+    font-size: 15px !important;
+  }
+  .icon._3yNNYT3e1avhAAWVHd0-92 {
+    margin-right: -5px !important;
+  }
+  .icon._1Xe01txJfRB9udUU85DNeR {
+    margin-right: -5px !important;
+  }
+  .kU8ebCMnbXfjCWfqn0WPb ._1GQDWqbF-wkYWbrpmOvjqJ {
+    margin-right: 0 !important;
+  }
+  ._1bWuGs_1sq4Pqy099x_yy- {
+    display: none !important;
+  }
+  ._1O4jTk-dZ-VIxsCuYB6OR8 {
+    filter: grayscale(100%) !important;
+    transition: .9s ease-out !important;
+  }
+  ._1DeR7_QiQnu2UK0e2dDfYD:hover {
+    border: 1px solid black !important;
+  }
+  .Jy6FIGP1NvWbVjQZN7FHA, ._326PJFFRv8chYfOlaEYmGt, ._1eMniuqQCoYf3kOpyx83Jj, ._1cDoUuVvel5B1n5wa3K507 {
+    font-size: .8rem !important;
+  }
+  ._10BQ7pjWbeYP63SAPNS8Ts.q_unSaY23rpdd3lDvGZ- {
+    font-size: .8rem !important;
+  }
+  ._1O_evNy72kVXzYqUj80m_n, ._1Q1oKEA1qDipo5Tk0b_YlY {
+    font-size: .8rem !important;
+  }
+  ._2B-BDgM13P2SLJX-GZrxHV, ._3A9bf_kZ6VBA2VBRND5gvf {
+    font-size: 13px !important;
+  }
+  a.M2Hk_S2yvXpsNPfZMBMur._1s79QnBguPbckxiiPvFXGP {
+    font-size: 13px !important;
+  }
+  a.M2Hk_S2yvXpsNPfZMBMur {
+    font-size: 13px !important;
+  }
+  ._3dZnYgFFpifT-M_Vs2FAq6 .icon {
+    margin-right: 3px !important;
+  }
+  ._3uVYL9qgX3QSEa_F4F-DPv.icon.icon-chat {
+    margin-right: 3px !important;
+  }
+  .yU9j1WJPhK5O625xcz254, ._1ScY1cHS-Vgv6eoU-LmjTi, ._3Txi0nOg7zVE4_CBYqUaRq {
+    border-radius: .2rem .2rem 0 0 !important;
+  }
+  ._1HWpiNu6dkOnZixxwDYTVJ {
+    background: #fff !important;
+  }
+  ._1HWpiNu6dkOnZixxwDYTVJ {
+    border: none !important;
+  }
+  .HOFZo2X7Fr6JVBztpsByj {
+    background: #fff !important;
+  }
+  ._1OVBBWLtHoSPfGCRaPzpTf._3nSp9cdBpqL13CqjdMr2L_._2udhMC-jldHp_EpAuBeSR1.PaJBYLqPf_Gie2aZntVQ7._2OVNlZuUd8L9v0yVECZ2iA {
+    background: #fff !important;
+  }
+  ._31N0dvxfpsO6Ur5AKx4O5d, ._3CUdiRoAXQxoYJ-UeFCjPS {
+    border-radius: .2rem !important;
+  }
+  ._3zbhtNO0bdck0oYbYRhjMC::before {
+    border-radius: .2rem !important;
+  }
+  ._3Im6OD67aKo33nql4FpSp_ {
+    border: none !important;
+  }
+  ._3Kd8DQpBIbsr5E1JcrMFTY._1tvThPWQpORoc2taKebHxs {
+    margin-right: 24px !important;
+    margin-left: none !important;
+  }
+  ._3X4DuB4IpAlTY0XMdSI5q6.icon.icon-add_media {
+    margin-left: 5px !important;
+  }
+  ._3F1tNW0P4Ff182mO_CefIg {
+    background: #000 !important;
+    padding: 10px 16px !important;
+    margin-top: 2rem !important;
+  }
