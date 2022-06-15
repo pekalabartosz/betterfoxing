@@ -283,4 +283,7 @@ img:hover{
   .list-info {
     min-width: 70px;
   }
+  #disclaimer {
+    text-align: center;
+  }
 }
