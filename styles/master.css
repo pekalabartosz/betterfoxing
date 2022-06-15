@@ -24,7 +24,7 @@ body {
 }
 #install-tutorial, #downloading {
   height: 650px;
-  width: 550px;
+  width: auto;
   background: white;
   z-index: 20;
   left: 50%;
